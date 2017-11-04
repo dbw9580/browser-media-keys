@@ -13,9 +13,14 @@ install:
 # Post-install test scripts.
 test_script:
   - npm test
+  - npm build
 
 # Don't actually build.
-build: on
+build: off
+  
+artifacts:
+  - path: browsermediakeys.xpi
+    name: addon
 
 #on_finish:
 #  - ps: $blockRdp = $true; iex ((new-object net.webclient).DownloadString('https://raw.githubusercontent.com/appveyor/ci/master/scripts/enable-rdp.ps1'))
