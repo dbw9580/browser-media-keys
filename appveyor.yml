@@ -13,7 +13,7 @@ install:
 # Post-install test scripts.
 test_script:
   - npm test
-  - npm build
+  - npm run-script build
 
 # Don't actually build.
 build: off
