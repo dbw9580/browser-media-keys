@@ -119,5 +119,9 @@
   {
 	"name": "udemy.com",
 	"include": "*.udemy.com"
+  },
+  {
+	"name": "douban.fm",
+	"include": "*.douban.fm"
   }
 ]
